@@ -1,0 +1,10 @@
+# PostgreSQL Neon configuration
+# Copy this file to config/db.properties and fill in your own credentials.
+# Do not commit config/db.properties.
+
+db.host=YOUR_NEON_HOST
+db.port=5432
+db.name=YOUR_DATABASE_NAME
+db.username=YOUR_DATABASE_USERNAME
+db.password=YOUR_DATABASE_PASSWORD
+db.sslmode=require

@@ -1,24 +1,23 @@
-# Compiled class file
+# Java build output
+/bin/
 *.class
 
-# Log file
+# Logs and temporary files
 *.log
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
 
-# BlueJ files
-*.ctxt
+# OS files
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IDE-local files (keep shared .vscode/settings.json)
+.idea/
+*.iml
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+# Archives
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
